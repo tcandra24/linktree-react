@@ -1,16 +1,18 @@
+import ProfileImage from "./assets/uifaces-robot-image.jpg";
+
 function App() {
   const links = [
     {
       title: "Github",
-      url: "#",
+      url: "https://github.com/tcandra24",
     },
     {
       title: "Linkedin",
-      url: "#",
+      url: "https://www.linkedin.com/in/tito-candra-280413160/",
     },
     {
       title: "instagram",
-      url: "#",
+      url: "https://www.instagram.com/titocandp",
     },
   ];
 
@@ -22,7 +24,7 @@ function App() {
             <div className="w-full text-center mb-5">
               <div className="avatar">
                 <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                  <img src={ProfileImage} />
                 </div>
               </div>
               <p className="text-lg">Tito Candra</p>
